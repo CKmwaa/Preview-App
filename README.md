@@ -3,7 +3,7 @@
 Caleb Mwangi @ Dev
 
 ## Project Description
-This website creates a illustartion of a landing page for a studio. What the studio offers and most importantly an interaction interface with the clients.
+This application helps create a list and preview news articles from various sources.
 
 ## Installation Instructions
 * Clone the project
