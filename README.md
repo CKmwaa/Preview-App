@@ -1,4 +1,4 @@
-## Delani Studio
+## List preview Application
 #### Author
 Caleb Mwangi @ Dev
 
