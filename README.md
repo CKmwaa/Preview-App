@@ -11,7 +11,7 @@ This website creates a illustartion of a landing page for a studio. What the stu
 * Go to live server
 
 ## Live link
-https://ckmwaa.github.io/Delani-Studio/
+https://ckmwaa.github.io/Preview-App/
 
 ## Requirements
 ​* Either a computer,phone,tablet or an Ipad​
