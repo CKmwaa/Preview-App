@@ -6,6 +6,10 @@ main = Flask (__name__)
 def index():
     return render_template('main.html')
 
+@main.route('/about')
+def about():
+    return render_template('about.html')
+
 if __name__ == '__main__':
     main.run (debug=True)
 
