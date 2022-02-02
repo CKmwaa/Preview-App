@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1> News Bulletin</h1>
+    <ul>class="list-group">
+      {% for bulletin in bulletin %}
+      <li class="list-group-item"><a href="bulletins/{{bulletin.id}}">{{bulletin.title}}</a></li>
+    {% endfor %}
+    </ul>
+{% endblock %}
