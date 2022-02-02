@@ -1,9 +1,9 @@
 from flask import Flask, render_template
-from bulletin import Bulletin
+#from bulletin import Bulletin
 
 main = Flask (__name__)
 
-Bulletins = Bulletin()
+#bulletin = Bulletin()
 
 @main.route('/')
 def index():
@@ -13,13 +13,13 @@ def index():
 def about():
     return render_template('about.html')
 
-@main.route('/bulletin')
+#@main.route('/bulletin')
 def bulletin():
     return render_template('bulletin.html', bulletin =  Bulletin)
 
-@main.route('/bulletin/<string:id>/')
+#@main.route('/bulletin/<string:id>/')
 def bulletin(id):
-    return render_template('bulletin.html', bulletin =  Bulletin)
+    return render_template('bulletin.html', id=id)
 
 if __name__ == '__main__':
     main.run (debug=True)
