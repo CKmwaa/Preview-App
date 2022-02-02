@@ -17,6 +17,10 @@ def about():
 def bulletin():
     return render_template('bulletin.html', bulletin =  Bulletin)
 
+@main.route('/bulletin/<string:id>/')
+def bulletin(id):
+    return render_template('bulletin.html', bulletin =  Bulletin)
+
 if __name__ == '__main__':
     main.run (debug=True)
 
