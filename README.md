@@ -8,7 +8,7 @@ This application helps create a list and preview news articles from various sour
 ## Installation Instructions
 * Clone the project
 * cd into project folder
-* Go to live server
+* Go to local host
 
 ## Live link
 https://ckmwaa.github.io/Preview-App/
@@ -18,7 +18,7 @@ https://ckmwaa.github.io/Preview-App/
 * An access to the Internet​
 
 ## Languages used
-* Python
+* Python3
 * HTML
 * CSS
 * Bootstrap 5
