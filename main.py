@@ -1,21 +1,21 @@
 from flask import Flask, render_template
-from article import Articles
+from bulletin import Bulletin
 
 main = Flask (__name__)
 
-Bulletin = Bulletin ()
+Bulletins = Bulletin()
 
 @main.route('/')
 def index():
-    return render_template('main.html')
+    return render_template(' main.html')
 
 @main.route('/about')
 def about():
-    return render_template ('about.html')
+    return render_template('about.html')
 
 @main.route('/bulletin')
 def bulletin():
-    return render_template ('bulletin.html', articles =Articles)
+    return render_template('bulletin.html', bulletin =  Bulletin)
 
 if __name__ == '__main__':
     main.run (debug=True)

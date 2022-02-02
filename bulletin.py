@@ -1,29 +1,26 @@
 def Bulletin():
-    bulletin =[
+    bulletin=[
         {
             'id':1,
-            'title':'Politics'            ''
-            'body':'Today UDA was in, '
+            'title':'Politics'
+
         },
          {
             'id':2,
-            'title':''            ''
-            'body':'Today UDA was in, '
+            'title':'Education'
         },
          {
             'id':3,
-            'title':'Agriculture'            ''
-            'body':'Today UDA was in, '
+            'title':'Agriculture'
+            
         },
          {
             'id':4,
-            'title':'ICT'            ''
-            'body':'Today UDA was in, '
+            'title':'ICT'
         },
          {
             'id':5,
-            'title':'Killings'            ''
-            'body':'Today UDA was in, '
+            'title':'Killings'
         }
     ]
-return bulletin
+    return bulletin
